@@ -7,6 +7,7 @@ import HeartQuest from "../components/HeartQuest";
 import IntroSection from "../components/IntroSection";
 import LoveLetterSection from "../components/LoveLetterSection";
 import TimelineSection from "../components/TimelineSection";
+import VoiceMemoriesSection from "../components/VoiceMemoriesSection";
 
 export default function HomePage() {
   const chatAnchorRef = useRef<HTMLDivElement | null>(null);
@@ -37,6 +38,8 @@ export default function HomePage() {
       </div>
 
       <TimelineSection />
+
+      <VoiceMemoriesSection />
 
       <LoveLetterSection />
 
