@@ -4,6 +4,14 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { timeline } from "../data";
 
+type TimelineItem = {
+  memory: string;
+  image: string;
+  title?: string;
+};
+
+const timelineItems = timeline as TimelineItem[];
+
 const variants = {
   hidden: { opacity: 0, y: 80 },
   visible: (index: number) => ({
@@ -26,7 +34,7 @@ export default function TimelineSection() {
       </div>
 
       <div className="space-y-8">
-        {timeline.map((item, index) => (
+        {timelineItems.map((item, index) => (
           <motion.article
             key={item.image ?? index}
             className="glass-card flex flex-col items-center gap-6 rounded-3xl p-6 sm:flex-row sm:items-center sm:gap-10"
