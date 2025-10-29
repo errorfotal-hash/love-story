@@ -6,7 +6,8 @@ export const timeline = [
   { memory: "Первая встреча после моря", image: "/images/photo3.jpg" },
   { memory: "На этом месте должна быть другая фотка)", image: "/images/photo4.jpg" },
   { memory: "Фотосессия", image: "/images/photo5.jpg" },
-  { memory: "Превратили самую тупую погоду в романтику", image: "/images/photo6.jpg" }
+  { memory: "Превратили самую тупую погоду в романтику", image: "/images/photo6.jpg" },
+  { memory: "Люблю тебя радовать", image: "/images/photo7.jpg" }
 ];
 
 // Обновите текст письма на свой, сохранив структуру абзацев
