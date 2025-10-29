@@ -16,7 +16,7 @@ const openSans = Open_Sans({
 
 export const metadata: Metadata = {
   title: "Наше любовное путешествие",
-  description: "Романтический сайт-подарок к шестимесячию отношений",
+  description: "Для самой лучшей девушки в мире",
   icons: {
     icon: "/icon.svg"
   }
